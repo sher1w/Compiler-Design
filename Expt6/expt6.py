@@ -16,7 +16,6 @@ def read_grammar_from_file(filename):
             grammar[head] = productions
     return grammar
 
-
 def read_input_string(filename):
     with open(filename, "r") as f:
         line = f.readline().strip()
