@@ -1,0 +1,4 @@
+This is a Lex program.
+The program counts words, converts the words to lowercase and counts their frequencies.
+1234  $ % ^
+
