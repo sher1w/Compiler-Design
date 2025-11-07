@@ -1,6 +1,4 @@
-sum = 0;
-i = 1;
-while (i <= 5) {
-    sum = sum + i;
-    i = i + 1;
+a = b + c * d;
+while (a < b) {
+    a = a + 1;
 }

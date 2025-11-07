@@ -13,8 +13,8 @@
 
  #line 8 "/usr/share/bison++/bison.h"
 
-#line 34 "parser.y"
-typedef union {char *str;} yy_parse_stype;
+#line 48 "parser.y"
+typedef union { char *str; } yy_parse_stype;
 #define YY_parse_STYPE yy_parse_stype
 #ifndef YY_USE_CLASS
 #define YYSTYPE yy_parse_stype
@@ -190,10 +190,13 @@ typedef
 #define	ID	258
 #define	NUM	259
 #define	WHILE	260
-#define	EQ	261
-#define	NE	262
-#define	LE	263
+#define	LT	261
+#define	LE	262
+#define	GT	263
 #define	GE	264
+#define	EQ	265
+#define	NE	266
+#define	UMINUS	267
 
 
 #line 169 "/usr/share/bison++/bison.h"
@@ -245,10 +248,13 @@ public:
 static const int ID;
 static const int NUM;
 static const int WHILE;
+static const int LT;
+static const int LE;
+static const int GT;
+static const int GE;
 static const int EQ;
 static const int NE;
-static const int LE;
-static const int GE;
+static const int UMINUS;
 
 
 #line 212 "/usr/share/bison++/bison.h"
@@ -260,10 +266,13 @@ static const int GE;
 	,ID=258
 	,NUM=259
 	,WHILE=260
-	,EQ=261
-	,NE=262
-	,LE=263
+	,LT=261
+	,LE=262
+	,GT=263
 	,GE=264
+	,EQ=265
+	,NE=266
+	,UMINUS=267
 
 
 #line 215 "/usr/share/bison++/bison.h"
